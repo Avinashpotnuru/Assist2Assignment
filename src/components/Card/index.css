@@ -1,0 +1,140 @@
+body {
+    font-size: 12px;
+    font-family: Comic Sans MS;
+    
+}
+
+div#main-card {
+    max-width: 300px;
+    box-shadow: -5px 2px 18px 4px rgb(76, 150, 7);
+}
+
+.cover-photo {
+    background: #0ab581;
+    width: 300px;
+    height: 100px;
+}
+
+.photo {
+    /* background: #f9f9f9; */
+    background: #ffcdcd;
+    width: 300px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+img {
+    position: relative;
+    top: -50px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    box-shadow: -1px 1px 11px 6px rgba(189, 172, 172, 0.33);
+}
+.content {
+    background: #ffcdcd;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: -35px;
+}
+
+.contact {
+    background: #30354d;
+    width: 300px;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+h2.name,
+h3,
+a {
+    margin: 0;
+    text-align: center;
+}
+
+h2.name {
+    padding-bottom: 20px;
+}
+
+h3.fullstack {
+    padding-bottom: 10px;
+}
+
+a {
+    color: #0ab581;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+ul {
+    padding: 0;
+}
+
+.fa {
+    font-size: 22px;
+    padding: 10px;
+    text-decoration: none;
+    color: #0ab581;
+}
+
+.fa:hover {
+    color: white;
+}
+
+a.certified {
+  color: black;
+  cursor: pointer;
+}
+
+a.certified:hover {
+  color: #0ab581;
+}
+
+div#main-card:hover {
+    -webkit-animation-name: pulse;  
+    animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.social{
+    display: flex;
+    
+   
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}  
+
+li{
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin: 20px 30px;
+    border-radius: 10%;
+    
+
+} 
+@media screen and (max-width:665px) {
+    li{
+        margin:40px 0px ;
+
+    }
+    
+}
